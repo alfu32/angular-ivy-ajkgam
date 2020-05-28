@@ -1,0 +1,15 @@
+<svg>
+  <svg:g transform="translate(60 20)">
+    <svg:polyline
+      class="component"
+      points="0,0 82,50 0,100 0,0"
+      (click)="emitClicked()">
+    </svg:polyline>
+  </svg:g>
+  <svg:text x="70" y="75">{{name}}</svg:text>
+  <svg:g proto-elec='terminal' transform="translate(110,3) rotate(90)" [text]="'Vcc'"></svg:g>
+  <svg:g proto-elec='terminal' transform="translate(13,50) rotate(0)" [text]="'(+)'"></svg:g>
+  <svg:g proto-elec='terminal' transform="translate(13,90) rotate(0)" [text]="'(-)'"></svg:g>
+  <svg:g proto-elec='terminal' transform="translate(187,70) rotate(180)" [text]="'OUT'"></svg:g>
+  <svg:g proto-elec='terminal' transform="translate(110,137) rotate(-90)" [text]="'GND'"></svg:g>
+</svg>

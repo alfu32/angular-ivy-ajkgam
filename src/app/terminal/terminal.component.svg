@@ -1,0 +1,6 @@
+<svg:g class="terminal">
+    <line x1="0" y1="0" x2="50" y2="0"></line>
+    <circle cx="2" cy="0" r="2"></circle>
+    <circle cx="47" cy="0" r="3"></circle>
+		<text x="2" y="-5" stroke="#0000">{{text}}</text>
+</svg:g>

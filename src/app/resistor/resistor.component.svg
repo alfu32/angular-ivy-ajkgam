@@ -1,0 +1,8 @@
+
+  <svg:g transform="translate(50 0)">
+    <svg:rect width="50" height="10"
+    class="rezistor"></svg:rect>
+    <svg:g proto-elec='terminal' transform="translate(0,5) rotate(180)"></svg:g>
+    <svg:g proto-elec='terminal' transform="translate(50,5) rotate(0)" [text]="'o'"></svg:g>
+  </svg:g>
+  <svg:text x="65" y="-5">{{name}}</svg:text>

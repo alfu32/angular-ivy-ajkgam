@@ -1,0 +1,15 @@
+.terminal{
+  stroke:black;
+  stroke-width:1;
+  cursor: pointer;
+}
+.terminal:hover{
+  stroke:#777;
+  fill:#555;
+  stroke-width:3;
+  circle{
+    stroke-width:1;
+    fill:#FF0;
+    stroke:#FD0;
+  }
+}
